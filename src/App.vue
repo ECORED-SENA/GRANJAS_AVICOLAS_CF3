@@ -33,4 +33,6 @@ export default {
   color: inherit !important
 .curso-main-container > .container
   overflow-x: unset !important
+.banner-principal__info h1, .banner-principal__info p
+  color: inherit !important
 </style>
