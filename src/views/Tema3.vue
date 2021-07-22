@@ -111,9 +111,9 @@
       .row
         .col-md-2
           figure
-            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg")
+            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg" style="max-width: 100px;margin: 0px auto;")
         .col-md-10
-          p.mt-2(data-aos="fade-up") A partir del análisis realizado, las empresas deben segmentar el mercado potencial para diseñar el plan de mercadeo con estrategias claras que le permitan llegar finalmente a su nicho de mercado (clientes reales), siendo este el que tomará la decisión de compra y en el que se deberán centrar todos los esfuerzos para fidelizar.
+          p.mt-2(data-aos="fade-up") #[strong ¡ Importante !] A partir del análisis realizado, las empresas deben segmentar el mercado potencial para diseñar el plan de mercadeo con estrategias claras que le permitan llegar finalmente a su nicho de mercado (clientes reales), siendo este el que tomará la decisión de compra y en el que se deberán centrar todos los esfuerzos para fidelizar.
 
     Separador
 
