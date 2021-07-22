@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'IntroducciN',
+  name: 'Introduccion',
   data: () => ({
     mostrarIndicador: true,
     modal1: false,
@@ -38,7 +38,7 @@ export default {
 
 <style lang="sass" scoped>
 .image_floating
-  filter: drop-shadow(19px 14px 5px rgba(0,0,0,.25))
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.25))
 .titulo-principal__numero span
   color: #31326F !important
 .titulo-principal__numero

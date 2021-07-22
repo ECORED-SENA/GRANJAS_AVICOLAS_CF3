@@ -63,9 +63,9 @@
       .row
         .col-md-2
           figure
-            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg")
+            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg" style="max-width: 100px;margin: 0 auto;")
         .col-md-10
-          p.mt-2(data-aos="fade-up") Como se mencionó previamente, la evolución de las ventas se constituye como el factor más importante a la hora de medir la efectividad de las estrategias aplicadas. El análisis comparativo dota de contexto la evolución de las ventas, al enfrentarla a los resultados previos a la ejecución de las medidas propuestas.
+          p.mt-2(data-aos="fade-up") #[strong ¡ Importante !] Como se mencionó previamente, la evolución de las ventas se constituye como el factor más importante a la hora de medir la efectividad de las estrategias aplicadas. El análisis comparativo dota de contexto la evolución de las ventas, al enfrentarla a los resultados previos a la ejecución de las medidas propuestas.
 
     h5.mt-5(data-aos="fade-up") El diseño de un informe comparativo para este propósito puede tomar la siguiente forma:
 
@@ -88,28 +88,28 @@
               td.text-center #[h6 %]
             tr
               td Producto A
-              td 15.000
-              td 13.000
-              td 2000
-              td 15,4%
+              td(style="text-align:right;") 15.000
+              td(style="text-align:right;") 13.000
+              td(style="text-align:right;") 2000
+              td(style="text-align:right;") 15,4%
             tr(style="background-color:#F6F6F6")
               td Producto B
-              td 2.500
-              td 2.200
-              td 300
-              td 13,6%
+              td(style="text-align:right;") 2.500
+              td(style="text-align:right;") 2.200
+              td(style="text-align:right;") 300
+              td(style="text-align:right;") 13,6%
             tr
               td Producto C
-              td 3.000
-              td 3.200
-              td -200
-              td -6,3%
+              td(style="text-align:right;") 3.000
+              td(style="text-align:right;") 3.200
+              td(style="text-align:right;") -200
+              td(style="text-align:right;") -6,3%
             tr(style="background-color:#F6F6F6")
               td #[h6 Total]
-              td #[h6 20.500]
-              td #[h6 18.400]
-              td #[h6 2.100]
-              td #[h6 11,4%]
+              td(style="text-align:right;") #[h6 20.500]
+              td(style="text-align:right;") #[h6 18.400]
+              td(style="text-align:right;") #[h6 2.100]
+              td(style="text-align:right;") #[h6 11,4%]
 
     p.mt-5(data-aos="fade-up") Las variaciones negativas implican una disminución en las ventas, mientras que las positivas un crecimiento. La comparativa puede ampliarse tanto como los analistas lo consideren necesario. Puede revisarse la evolución histórica abarcando más años, o segmentar las comparativas por regiones o centros de distribución. Es por ello, que el informe se plantea a la medida de las necesidades, enfocado a funcionarios en específico para una retroalimentación posterior, o a nivel global para la toma de decisiones transversales.
 
@@ -131,24 +131,24 @@
               td.text-center #[h6 Cumplimiento]
             tr
               td Producto A
-              td 2.000
-              td 2.000
-              td 100%
+              td(style="text-align:right;") 2.000
+              td(style="text-align:right;") 2.000
+              td(style="text-align:right;") 100%
             tr(style="background-color:#F6F6F6")
               td Producto B
-              td 300
-              td 800
-              td 38%
+              td(style="text-align:right;") 300
+              td(style="text-align:right;") 800
+              td(style="text-align:right;") 38%
             tr
               td Producto C
-              td -200
-              td 1000
-              td -20%
+              td(style="text-align:right;") -200
+              td(style="text-align:right;") 1000
+              td(style="text-align:right;") -20%
             tr(style="background-color:#F6F6F6")
               td #[h6 Total]
-              td #[h6 2.100]
-              td #[h6 3.800]
-              td #[h6 55%]
+              td(style="text-align:right;") #[h6 2.100]
+              td(style="text-align:right;") #[h6 3.800]
+              td(style="text-align:right;") #[h6 55%]
 
     p.mt-5(data-aos="fade-up") Para determinar el nivel de cumplimiento debe dividirse el incremento obtenido sobre el proyectado. Cualquier cifra que se acerque o supere el #[strong(style="background-color:#FFEA99;padding:5px") 100%] puede considerarse positiva. En el caso del producto A, se lograron las metas propuestas, en el caso del producto B la efectividad no alcanzó ni la mitad de la esperada, y en el caso del producto C, las estrategias no tuvieron ningún efecto, o incluso, tuvieron uno negativo.
 
@@ -183,7 +183,7 @@ export default {
 
 <style lang="sass">
 .image_floating
-  filter: drop-shadow(19px 14px 5px rgba(0,0,0,.25))
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.25))
 .titulo-principal__numero span
   color: #31326F !important
 .titulo-principal__numero
@@ -325,7 +325,10 @@ export default {
     position: inherit !important
 .tabla__1 th
   background-color: #F1D54E
-.tabla__1 th,td
+.tabla__1 th
+  border: none
+  border-right: 1px #A5A5A5 solid
+.tabla__1 td
   border: none
   border-right: 1px #A5A5A5 solid
 .tabla__1 tr th:last-child,.tabla__1 tr td:last-child

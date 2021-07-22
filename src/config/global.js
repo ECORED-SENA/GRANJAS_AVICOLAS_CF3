@@ -157,7 +157,7 @@ export default {
       referencia:
         'Berenguer, Quintanilla & Gómez. (2014). Comportamiento del consumidor',
       link:
-        'https://books.google.com.co/books?id=hwDAwAAQBAJ&printsec=frontcover&dq=COMPORTAMIENTO+DEL+CONSUMIDOR&hl=es&sa=X&redir_esc=y#v=onepage&q=COMPORTAMIENTO%20DEL%20CONSUMIDOR&f=false.',
+        'https://books.google.com.co/books?id=-hwDAwAAQBAJ&pg=PT58&hl=es&source=gbs_toc_r&cad=4#v=onepage&q&f=false',
     },
     {
       referencia:
@@ -227,8 +227,7 @@ export default {
       texto:
         'Hoyos, E. & Henao, I. (2020). Propuesta de plan de mercadeo para una empresa agroavícola para el periodo 2020',
       tipo: 'Trabajo de Grados',
-      link:
-        'https://repository.usc.edu.co/bitstream/handle/20.500.12421/3401/PROPUESTA%20DE%20PLAN%20DE%20MERCADEO%20.pdf?sequence=1&isAllowed=y',
+      descarga: '/downloads/PropuestaPlanDeMercadeo.pdf',
     },
   ],
   creditos: {
@@ -247,19 +246,30 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Andrés Felipe Avilan Lozano',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario la granja - Regional Tolima',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Lina Marcela Ocampo Henao',
+        cargo: 'Experta temática',
+        centro: 'Centro Agropecuario la granja - Regional Tolima',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Diana Marcela Luis Vásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de la gestión industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -298,7 +308,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'María Isabel Román Rueda',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

@@ -65,7 +65,7 @@
         .col-md-9(style="padding:3rem 3rem 3rem 1rem;")
           h4.mt-4(data-aos="fade-up") Interna:
 
-          p.mt-4(data-aos="fade-up") son los datos que se pueden recolectar al interior de la empresa, a partir del intercambio de información entre las diferentes áreas de esta y sus colaboradores, y de esta forma, se puede establecer que la información interna hace parte de las fuentes primarias dado a que se recopila a través de instrumentos diseñados por la empresa como la entrevista, encuesta o dinámicas de grupo (estos se explicarán más adelante).
+          p.mt-4(data-aos="fade-up") Son los datos que se pueden recolectar al interior de la empresa, a partir del intercambio de información entre las diferentes áreas de esta y sus colaboradores, y de esta forma, se puede establecer que la información interna hace parte de las fuentes primarias dado a que se recopila a través de instrumentos diseñados por la empresa como la entrevista, encuesta o dinámicas de grupo (estos se explicarán más adelante).
 
     br
     br
@@ -91,7 +91,7 @@
         .col-md-9(style="padding:3rem 3rem 3rem 1rem;")
           h4.mt-4(data-aos="fade-up") Externa:
 
-          p.mt-4(data-aos="fade-up") la información externa es aquella que se obtiene con los actores ajenos a la empresa, pero con los que se tiene una relación directa como clientes y proveedores.
+          p.mt-4(data-aos="fade-up") La información externa es aquella que se obtiene con los actores ajenos a la empresa, pero con los que se tiene una relación directa como clientes y proveedores.
 
           p.mt-4(data-aos="fade-up") El levantamiento de esta información puede hacerse con herramientas como encuestas de satisfacción, formatos PQR (Peticiones, Quejas y Reclamos) o entrevistas informales ya que así se convierte en una fuente de información primaria; es importante conocer qué otras alternativas de obtener esta información, es con fuentes secundarias como por ejemplo estudios e informes de comportamiento del sector, políticas del estado o indicadores de crecimiento.
 
@@ -195,6 +195,7 @@
     p(data-aos="fade-up") Para hacer un ejercicio válido de levantamiento de información en fuentes primarias es necesario reconocer las herramientas que existen y deben ser usadas a partir del resultado que se desea obtener, entendiendo que estas serán orientadas a los actuales o futuros clientes. A continuación, se hace una relación de estas:
 
     .col-md-8.mt-5.m-auto
+      h4.mb-0.text-center.mb-4(data-aos="fade-up") Herramientas
       .row.indicador__container
         .col-md-3.mb-3
           figure.p-5.caja__imagen_1.caja_flotante.caja_escalada_hover.caja__activa(style=";background-color:#F1D54E;border-radius:8px;cursor:pointer" @click="mostrarIndicador = false")
@@ -210,13 +211,11 @@
           figure.p-5.caja__imagen_4.caja_flotante.caja_escalada_hover(style=";background-color:#F1D54E;border-radius:8px;cursor:pointer" @click="mostrarIndicador = false")
             img.imagen_flotante_animada(src="@/assets/curso/tema2/12.svg")
 
-      h4.mb-0.text-center.mt-4(data-aos="fade-up") Herramientas
-
     .col-md-10.m-auto
 
       .p-4.mt-2(style="background-color:#D2F6E6;border-radius:8px;")
         .info_imagen_1
-          h5.text-center Entrevistas
+          h4.text-center Entrevistas
           p.mt-4 Es uno de los métodos más utilizados para la obtención de información, pues se trata de una conversación entre un entrevistador y entrevistado donde se formulan preguntas para obtener la información necesaria del tema definido con anterioridad. El tipo de información obtenida es subjetiva como, por ejemplo, la percepción del producto o servicio, las preferencias de los clientes o consumidor final. A continuación, se explican sus principales características y tipos de entrevistas.
 
           .indicador__container
@@ -256,15 +255,15 @@
                     td El entrevistador consigue respuestas específicas y cuantitativas.
 
         .info_imagen_2(style="display:none;")
-          h5.text-center Dinámicas de grupo
+          h4.text-center Dinámicas de grupo
           p.mt-4 Tienen una similitud con las entrevistas, pero es importante tener en cuenta que se debe aplicar a grupos de 2 a 12 personas. Es necesario que los grupos estén conformados por personas con elementos en común (gustos, aficiones, estrato), aspectos a ser analizados con anterioridad por el entrevistador.
 
         .info_imagen_3(style="display:none;")
-          h5.text-center Observación
+          h4.text-center Observación
           p.mt-4 Como su nombre lo indica, consiste en observar a una persona o grupo de personas y sus reacciones frente a un producto o un servicio, tomando nota de sus movimientos, acciones y percepción frente a diferentes acciones.
 
         .info_imagen_4(style="display:none;")
-          h5.text-center Técnicas de creatividad
+          h4.text-center Técnicas de creatividad
           p.mt-4 Están enfocadas a grupos de trabajo en los cuales se realizan actividades diferentes a la entrevista, por ejemplo:
 
           .row.mt-5.col-md-9.m-auto.indicador__container
@@ -275,28 +274,28 @@
               h6.text-center.mt-2 Lluvia de ideas
               ModalA(:abrir-modal.sync="modal2")
                 h4 Lluvia de ideas
-                p.mt-3 herramienta de trabajo en equipo que tiene como finalidad la generación de nuevas ideas.
+                p.mt-3 Herramienta de trabajo en equipo que tiene como finalidad la generación de nuevas ideas.
             .col-md-3.mb-3
               figure.p-2(@click="modal3 = true")
                 img.imagen__1.caja_escalada_hover.caja_flotante(src="@/assets/curso/tema2/15.svg" @click="mostrarIndicador3 = false")
               h6.text-center.mt-2 Espina de pescado
               ModalA(:abrir-modal.sync="modal3")
                 h4 Espina de pescado
-                p.mt-3 diagrama causa-efecto en forma de espina de pescado que permite identificar las variables que generan un problema y que permite la toma de decisiones.
+                p.mt-3 Diagrama causa-efecto en forma de espina de pescado que permite identificar las variables que generan un problema y que permite la toma de decisiones.
             .col-md-3.mb-3
               figure.p-2(@click="modal4 = true")
                 img.imagen__1.caja_escalada_hover.caja_flotante(src="@/assets/curso/tema2/16.svg" @click="mostrarIndicador3 = false")
               h6.text-center.mt-2 Árbol de problemas
               ModalA(:abrir-modal.sync="modal4")
                 h4 Árbol de problemas
-                p.mt-3 herramienta utilizada para la identificación de problemas a partir del análisis cusa-efecto.
+                p.mt-3 Herramienta utilizada para la identificación de problemas a partir del análisis cusa-efecto.
             .col-md-3.mb-3
               figure.p-2(@click="modal5 = true")
                 img.imagen__1.caja_escalada_hover.caja_flotante(src="@/assets/curso/tema2/17.svg" @click="mostrarIndicador3 = false")
               h6.text-center.mt-2 Lista de atributos
               ModalA(:abrir-modal.sync="modal5")
                 h4 Lista de atributos
-                p.mt-3 herramienta aplicada para la creación de nuevos productos o mejorar los servicios o productos existentes. Consiste básicamente en listar los atributos o características del nuevo producto o del que se desea mejorar, posteriormente se analiza cada una de estas y de esta manera, se van descalificando las que sean menos relevantes.
+                p.mt-3 Herramienta aplicada para la creación de nuevos productos o mejorar los servicios o productos existentes. Consiste básicamente en listar los atributos o características del nuevo producto o del que se desea mejorar, posteriormente se analiza cada una de estas y de esta manera, se van descalificando las que sean menos relevantes.
 
     br
     br
@@ -304,9 +303,9 @@
       .row
         .col-md-2
           figure
-            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg")
+            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg" style="max-width: 100px;margin: 0 auto;")
         .col-md-10
-          p.mt-2(data-aos="fade-up") Es importante recordar que las herramientas de información secundaria ya existen y no hay que elaborarlas ni crearlas (indicadores, índices, informes económicos, estadísticas), por ello, es de relevancia tener en cuenta la veracidad de las fuentes de información y así obtener datos seguros para hacer un análisis real.
+          p.mt-2(data-aos="fade-up") #[strong ¡ Importante !] Es importante recordar que las herramientas de información secundaria ya existen y no hay que elaborarlas ni crearlas (indicadores, índices, informes económicos, estadísticas), por ello, es de relevancia tener en cuenta la veracidad de las fuentes de información y así obtener datos seguros para hacer un análisis real.
 
     .col-md-7.m-auto.mt-5
       a.anexo.mb-4(href="https://www.youtube.com/watch?v=22Edu6E9ibw" target="_blank" data-aos="fade-up")
@@ -388,7 +387,7 @@ export default {
 
 <style lang="sass">
 .image_floating
-  filter: drop-shadow(19px 14px 5px rgba(0,0,0,.25))
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.25))
 .titulo-principal__numero span
   color: #31326F !important
 .titulo-principal__numero

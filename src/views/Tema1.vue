@@ -27,12 +27,12 @@
 
     .mt-5.p-5.caja_flotante_azul(style="background-color:#D2F6E6;border-radius:8px;")
       .col-md-3.m-auto
-        h5.text-center(data-aos="fade-up" style="background-color:#17C878;border-radius:3px;padding: 12px 0px 12px 0px;") Macroentorno
+        h4.text-center(data-aos="fade-up" style="background-color:#17C878;border-radius:3px;padding: 12px 0px 12px 0px;") Macroentorno
       .col-md-10.mt-4.m-auto
         p.text-center.mt-3(data-aos="fade-up") Las variables que integran el macroentorno no tienen ninguna relación con la actividad económica de las empresas, pero son aquellas que las afectan de forma directa sin importar el sector económico, de esta manera, #[strong el macroentorno se puede dividir en varios de estos diferenciados, estos son:]
 
       br
-      .col-md-4.m-auto.mt-5
+      .col-md-4.m-auto.text-center
         .row.indicador__container
           .col-md-6.mb-4
             button.button__1(v-b-popover.click.blur.left.html="macroentorno[0]" variant="primary")
@@ -66,12 +66,12 @@
 
     .mt-4.p-5.caja_flotante_rosada(style="background-color:#FFF7D0;border-radius:8px;")
       .col-md-3.m-auto
-        h5.text-center(data-aos="fade-up" style="background-color:#F1D54E;border-radius:3px;padding: 12px 0px 12px 0px;") Microentorno
+        h4.text-center(data-aos="fade-up" style="background-color:#F1D54E;border-radius:3px;padding: 12px 0px 12px 0px;") Microentorno
       .col-md-10.mt-4.m-auto
         p.text-center.mt-3(data-aos="fade-up") Cuando se habla del microentorno no se hace referencia a variables, sino a actores que se involucran en el proceso, que, aunque no dependen de la empresa sí tienen relación directa e impactan positiva o negativamente su funcionamiento. #[strong Estos actores son:]
 
       br
-      .col-md-4.m-auto.mt-5
+      .col-md-4.m-auto.text-center
         .row.indicador__container
           .col-md-6.mb-4
             button.button__1(v-b-popover.click.blur.left.html="microentorno[0]" variant="primary")
@@ -142,23 +142,23 @@
     br
     LineaTiempoD.color-secundario.mt-5.col-md-8.m-auto
       .row(numero="1" titulo="De medición")
-        .col-md-7.mb-4.mb-md-0
+        .col-md-8.mb-4.mb-md-0
           p.text-small Cuando se busca la obtención de datos del mercado, la cantidad de clientes potenciales, la frecuencia de compra del producto por cada comprador, el grado de notoriedad de la marca, entre otros. Dado que su enfoque es mayoritariamente estadístico, es recomendable que la población consultada sea considerable.
-        .col-md-5
+        .col-md-4
           figure
             img.imagen_flotante_animada(src='@/assets/curso/tema1/14.svg', alt='De medición')
       
       .row(numero="2" titulo="De entendimiento")
-        .col-md-7.mb-4.mb-md-0
+        .col-md-8.mb-4.mb-md-0
           p.text-small Tiene un enfoque cualitativo, se busca identificar comportamientos o motivaciones, valoraciones de los productos desde el punto de vista de satisfacción. 
-        .col-md-5
+        .col-md-4
           figure
             img.imagen_flotante_animada(src='@/assets/curso/tema1/15.svg', alt='De entendimiento')
 
       .row(numero="3" titulo="De apoyo")
-        .col-md-7.mb-4.mb-md-0
+        .col-md-8.mb-4.mb-md-0
           p.text-small Se consolida como una herramienta para la toma de decisiones estratégicas, que confronten diversas hipótesis para observar el comportamiento de la demanda. Por ejemplo, consultar con los consumidores del producto su opinión respecto a un cambio de imagen o un cambio de precio.
-        .col-md-5
+        .col-md-4
           figure
             img.imagen_flotante_animada(src='@/assets/curso/tema1/16.svg', alt='De apoyo')
     
@@ -211,7 +211,7 @@
       .row
         .col-md-2
           figure
-            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg")
+            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg" style="max-width: 100px;margin: 0 auto;")
         .col-md-10
           p.mt-2(data-aos="fade-up") #[strong ¡ Importante !] A partir de las conclusiones alcanzadas con el diagnóstico de mercado, se contará con los fundamentos necesarios para iniciar con la formulación del plan de mercado y su posterior supervisión. Un correcto diagnóstico no solo facilita la toma de decisiones, sino que permite enfocarse en las estrategias más adecuadas para alcanzar los objetivos planteados en el menor tiempo posible.
 
@@ -221,7 +221,8 @@
           img(src="@/assets/curso/tema1/22.svg")
         .anexo__texto
           h5(style="color:#12263F") Ejemplo de estudio de mercado
-          p(style="color:#12263F") Para profundizar se recomienda revisar la siguiente página web. https://www.questionpro.com/es/estudio-de-mercado.html#ejemplo_mercado
+          p(style="color:#12263F") Para profundizar se recomienda revisar la siguiente página web.
+          | https://www.questionpro.com/es/estudio-de-mercado.html#ejemplo_mercado
 
 
 
@@ -284,7 +285,7 @@ export default {
 
 <style lang="sass">
 .image_floating
-  filter: drop-shadow(19px 14px 5px rgba(0,0,0,.25))
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.25))
 .titulo-principal__numero span
   color: #31326F !important
 .titulo-principal__numero

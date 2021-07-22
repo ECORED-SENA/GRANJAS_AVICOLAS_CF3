@@ -14,7 +14,7 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema5/1.svg")
         .col-lg-8
           .bloque-texto-a__texto.p-4.caja_escalada_hover
-            p(data-aos="fade-up") El informe de resultados de plan de mercado se debe presentar a manera de informe ejecutivo (informe escrito con resultados y recomendaciones de manera específica) respecto al desarrollo del plan de mercado, este debe mantener la proporción de cumplimiento entre las metas propuestas y las alcanzadas, las actividades realizadas y la explicación o justificación respecto a los objetivos inconclusos.
+            p(data-aos="fade-up") El plan de mejora se aplica posterior a la evaluación a las diferentes estrategias del plan de mercado. Su objetivo es corregir los errores identificados en el control concurrente y en el de retroalimentación con el fin de que la formulación del plan para el nuevo año no incurra de nuevo en estos errores y garantice el cumplimiento del 100% de los objetivos trazados en la planeación y diseño del nuevo plan de mercado.
 
     p.mt-5(data-aos="fade-up") Dando continuidad a los resultados planteados a modo de ejemplo en el informe comparativo de ventas de la sección anterior, el nulo rendimiento sobre la inversión evidenció que las estrategias planteadas no generaron los resultados esperados. Esta conclusión se constituye como una causal para ejecutar un plan de mejora que cambie el panorama en la implementación de futuros planes de mercado.
 
@@ -79,12 +79,12 @@
             tr
               th(rowspan="2").text-center Objetivo
               th(rowspan="2").text-center Estrategia
-              th(colspan="2").text-center Evaluación de estrategia
+              th(colspan="2").text-center Evaluación de #[br] estrategia
               th(rowspan="2").text-center Nueva estrategia
-              th(rowspan="2").text-center Actividades a realizar
-              th(rowspan="2").text-center Responsables
-              th(colspan="2").text-center Fechas de desarrollo
-              th(colspan="2").text-center % cumplimiento objetivo
+              th(rowspan="2").text-center Actividades #[br] a realizar
+              th(rowspan="2" style="width: 12%;").text-center Responsables
+              th(colspan="2").text-center Fechas de #[br] desarrollo
+              th(colspan="2").text-center % cumplimiento #[br] objetivo
             tr(style="background-color:#F6F6F6")
               th.text-center Modificada
               th.text-center No modificada
@@ -100,7 +100,7 @@
               td.text-center
               td.text-center #[h5 1]
               td.text-center 1. #[br] 2.
-              td.text-center Líder de área
+              td.text-center Líder #[br] de #[br] área
               td.text-center
               td.text-center
               td.text-center #[h5 15%]
@@ -130,7 +130,7 @@
               td.text-center
             tr
               td.text-center(rowspan="2") #[h4.mt-3 3]
-              td.text-center 
+              td.text-center 1.
               td.text-center 
               td.text-center
               td.text-center 
@@ -141,7 +141,7 @@
               td.text-center 
               td.text-center 
             tr
-              td.text-center 
+              td.text-center 2.
               td.text-center 
               td.text-center 
               td.text-center 
@@ -156,7 +156,7 @@
       .row
         .col-md-2
           figure
-            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg")
+            img.imagen_flotante_animada(src="@/assets/curso/tema1/21.svg" style="max-width: 100px;margin: 0 auto;")
         .col-md-10
           p.mt-2(data-aos="fade-up") #[strong ¡ Importante !] Posterior al diseño de la matriz, se implementa con el equipo de trabajo lo planeado en ella, esta información hace parte del siguiente plan de mercadeo, entendiendo que estas estrategias ajustadas serán el punto de partida para el nuevo año, esto no quiere decir que solo se enfocarán los esfuerzos en cumplir con el plan de mejora, pero sí que estas deben ser priorizadas para nivelar los objetivos que están incompletos, de este modo,  se espera que el plan de mejora subsane los retrasos presentados y el nuevo plan se cumpla según lo planeado.
 
@@ -264,7 +264,7 @@ export default {
 
 <style lang="sass">
 .image_floating
-  filter: drop-shadow(19px 14px 5px rgba(0,0,0,.25))
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.25))
 .titulo-principal__numero span
   color: #31326F !important
 .titulo-principal__numero
@@ -406,10 +406,16 @@ export default {
     position: inherit !important
 .tabla__1 th
   background-color: #F1D54E
-.tabla__1 th,td
+.tabla__1 th
   border: none
   border-right: 1px #A5A5A5 solid
-  word-break: break-all;
+  word-break: break-word
+  padding: 0.75rem 0.1em
+.tabla__1 td
+  border: none
+  border-right: 1px #A5A5A5 solid
+  word-break: break-word
+  padding: 0.75rem 0.1em
 .tabla__1 tr th:last-child,.tabla__1 tr td:last-child
   border: none !important
 .tabs-a__tab
