@@ -30,7 +30,7 @@
         img.imagen_flotante_animada(src="@/assets/curso/tema3/2.svg" style="display:inline;width:150px;margin-top: -7rem;")
       .col-md-5.m-auto.mt-3
         .p-3(style="background-color:#17C878;border-radius:5px;" data-aos="fade-up")
-          h4.text-white.text-center.mb-0 Comportamiento del consumidor
+          h3.text-white.text-center.mb-0 Comportamiento del consumidor
 
       p.mt-4(data-aos="fade-up") La toma de decisión de compra del cliente o consumidor viene influenciada por un deseo, un impulso o una necesidad, siendo esta última la más común al momento de influir en la decisión final. El mercadeo se encarga de investigar las motivaciones y necesidades de los clientes para traducir los deseos de estos y poder identificar qué es exactamente lo que buscan.
 
@@ -62,7 +62,7 @@
         img.imagen_flotante_animada(src="@/assets/curso/tema3/4.svg" style="display:inline;width:150px;margin-top: -7rem;")
       .col-md-5.m-auto.mt-3
         .p-3(style="background-color:#17C878;border-radius:5px;" data-aos="fade-up")
-          h4.text-white.text-center.mb-0 Influencias del consumidor
+          h3.text-white.text-center.mb-0 Influencias del consumidor
 
       p.mt-4(data-aos="fade-up") Las variables que influencian la decisión del consumidor son vistas desde un punto de vista psicológico que ayuda al mercadeo a generar estrategias para que finalmente se realice el proceso de compra, por ello, la referencia anterior de la pirámide de Maslow, sin embargo, estas no son las únicas variables que influyen, existen otras que intervienen en el proceso, estas son:
 
@@ -90,7 +90,7 @@
         img.imagen_flotante_animada(src="@/assets/curso/tema3/7.svg" style="display:inline;width:150px;margin-top: -7rem;")
       .col-md-5.m-auto.mt-3
         .p-3(style="background-color:#17C878;border-radius:5px;" data-aos="fade-up")
-          h4.text-white.text-center.mb-0 Conducta de compra
+          h3.text-white.text-center.mb-0 Conducta de compra
 
       p.mt-4(data-aos="fade-up") Al identificar los factores que influencian el comportamiento de compra, se debe hacer referencia al proceso de la decisión final para pagar por el bien o servicio deseado. Para esto se hace necesario comprender que actualmente los clientes o consumidores compran más que un objeto o servicio, pues ahora la decisión se basa en la experiencia que se pueda generar, el valor agregado que entreguen las empresas del mercado y la manera en que se presta atención al cliente. Con el acceso a la tecnología e información, actualmente se suelen hacer comparativos para poder decidir a quién comprar y a quién no.
 
@@ -124,7 +124,7 @@
         img.imagen_flotante_animada(src="@/assets/curso/tema3/9.svg" style="display:inline;width:150px;margin-top: -7rem;")
       .col-md-5.m-auto.mt-3
         .p-3(style="background-color:#17C878;border-radius:5px;" data-aos="fade-up")
-          h4.text-white.text-center.mb-0 Segmento de mercado
+          h3.text-white.text-center.mb-0 Segmento de mercado
 
       p.mt-4(data-aos="fade-up") La segmentación de mercado es la división de este en grupos homogéneos respecto a algunos criterios como la edad, género, gustos, ubicación geográfica, entre otros, con el fin de implementar posteriormente una investigación de mercado para conocer sus preferencias y gustos a la hora de tomar la decisión de compra para finalizar con el diseño de un plan de mercadeo.
 
@@ -188,7 +188,7 @@
     p.mt-4(data-aos="fade-up") Para que el plan de mercado pueda desarrollarse de manera correcta se considera la siguiente estructura, la cual está dividida en 3 grandes áreas, así será más fácil el cumplimiento de los objetivos:
 
     .cajon.color-acento-botones.p-5.mt-4.caja_flotante_rosada
-      h4(data-aos="fade-up") Marketing analítico
+      h3(data-aos="fade-up") Marketing analítico
       p.mt-4(data-aos="fade-up") Es indispensable hacer la investigación y análisis de información de la empresa, el mercado y la competencia. La investigación se basa en 4 grupos, los cuales son análisis interno, externo, estudio de mercado y FODA.
 
     TabsB.color-acento-contenido.mt-4
@@ -238,7 +238,7 @@
           p.mt-2(data-aos="fade-up") #[strong ¡ Importante !] Este primer paso del estudio de mercado es el más importante, ya que entrega información clara y objetiva de la situación actual de la empresa en el mercado respecto a la competencia, a la situación socioeconómica y demarca la intención de los objetivos a cumplir.
 
     .cajon.color-acento-botones.p-5.mt-5.caja_flotante_rosada
-      h4(data-aos="fade-up") Marketing estratégico
+      h3(data-aos="fade-up") Marketing estratégico
       p.mt-4(data-aos="fade-up") Para desarrollar este paso del estudio de mercado se tiene en cuenta que no será siempre lo mismo para todas las empresas; poder plasmar las estrategias depende de la naturaleza de las empresas y del objetivo que se quiera alcanzar. 
 
     p.mt-5(data-aos="fade-up" style="padding-left:10px;border-left:4px #F1D54E solid;") #[strong Figura 6]  Paso a paso del marketing estratégico
@@ -249,7 +249,7 @@
     Separador
 
     .cajon.color-acento-botones.p-5.mt-4.caja_flotante_rosada
-      h4(data-aos="fade-up") Marketing operativo
+      h3(data-aos="fade-up") Marketing operativo
       p.mt-4(data-aos="fade-up") En este punto se desarrolla el grueso del plan, aquí se deben concentrar el diseño, implementación y costo de las estrategias para lograr lo que se planteó al inicio de este. Se identifican las necesidades de recursos y se determina si debe existir financiación externa.
 
       p.mt-4(data-aos="fade-up") El marketing operativo se desarrolla en 4 pasos donde se recogen todos los elementos analizados del marketing analítico y estratégico, es el momento de actuar y decidir la implementación del plan. #[strong Los 4 pasos son los siguientes:]
@@ -407,7 +407,7 @@
                 i.fas.fa-file-download(style="color: #12263F !important;")
 
     .cajon.color-acento-botones.p-5.mt-5.caja_flotante_rosada
-      h5(data-aos="fade-up") Evaluación y seguimiento:
+      h3(data-aos="fade-up") Evaluación y seguimiento:
       p.mt-4(data-aos="fade-up") El plan de mercado debe tener un cronograma de actividades según lo establecen los pasos del marketing operativo, en él se define tiempo de inicio, finalización y responsables, de este modo, el mismo plan se convierte en la hoja de ruta para hacer la evaluación; algunos autores reconocen este proceso como auditoria de marketing. Esta auditoría permite hacer una evaluación amplia y sistemática de los objetivos, las estrategias y actividades implementadas, además de proporcionar datos a tener en cuenta para elaborar el plan del año siguiente.
 
       p.mt-3(data-aos="fade-up") #[strong Por ello, se hace necesario definir los mecanismos de control, los cuales se clasifican en 3 tipos de controles básicos y un plan de contingencia:]
@@ -437,7 +437,7 @@
               .indicador--click(v-if="mostrarIndicador")
 
     .cajon.color-acento-botones.p-5.mt-5.caja_flotante_rosada
-      h4(data-aos="fade-up") Indicadores de gestión
+      h3(data-aos="fade-up") Indicadores de gestión
       p.mt-4(data-aos="fade-up") La manera en la que se debe evaluar y medir si la empresa está cumpliendo las metas y objetivos propuestos es a través de los KPI (indicadores de gestión o indicadores de desempeño). Los KPI se convierten en los instrumentos de evaluación que darán paso a la toma de decisiones correctas respecto a la implementación de las estrategias.
 
       p.mt-3(data-aos="fade-up") #[strong Los KPI de marketing son necesarios para la empresa ya que permiten conocer si las estrategias diseñadas en el plan de mercado son las correctas junto con la adquisición de nuevos clientes y la interacción con los futuros clientes, estos indicadores están divididos en 4 categorías:]

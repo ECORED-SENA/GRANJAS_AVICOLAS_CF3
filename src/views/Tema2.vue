@@ -198,17 +198,17 @@
       h4.mb-0.text-center.mb-4(data-aos="fade-up") Herramientas
       .row.indicador__container
         .col-md-3.mb-3
-          figure.p-5.caja__imagen_1.caja_flotante.caja_escalada_hover.caja__activa(style=";background-color:#F1D54E;border-radius:8px;cursor:pointer" @click="mostrarIndicador = false")
+          figure.p-5.caja__imagen_1.caja_flotante.caja_escalada_hover.caja__activa(style=";background-color:#F1D54E;border-radius:8px;cursor:pointer;max-width: 200px;margin: 0 auto;" @click="mostrarIndicador = false")
             img.imagen_flotante_animada(src="@/assets/curso/tema2/9.svg")
           .indicador--click(v-if="mostrarIndicador")
         .col-md-3.mb-3
-          figure.p-5.caja__imagen_2.caja_flotante.caja_escalada_hover(style="background-color:#5CD8A0;border-radius:8px;cursor:pointer" @click="mostrarIndicador = false")
+          figure.p-5.caja__imagen_2.caja_flotante.caja_escalada_hover(style="background-color:#5CD8A0;border-radius:8px;cursor:pointer;max-width: 200px;margin: 0 auto;" @click="mostrarIndicador = false")
             img.imagen_flotante_animada(src="@/assets/curso/tema2/10.svg")
         .col-md-3.mb-3
-          figure.p-5.caja__imagen_3.caja_flotante.caja_escalada_hover(style="background-color:#FB9E36;border-radius:8px;cursor:pointer" @click="mostrarIndicador = false")
+          figure.p-5.caja__imagen_3.caja_flotante.caja_escalada_hover(style="background-color:#FB9E36;border-radius:8px;cursor:pointer;max-width: 200px;margin: 0 auto;" @click="mostrarIndicador = false")
             img.imagen_flotante_animada(src="@/assets/curso/tema2/11.svg")
         .col-md-3.mb-3
-          figure.p-5.caja__imagen_4.caja_flotante.caja_escalada_hover(style=";background-color:#F1D54E;border-radius:8px;cursor:pointer" @click="mostrarIndicador = false")
+          figure.p-5.caja__imagen_4.caja_flotante.caja_escalada_hover(style=";background-color:#F1D54E;border-radius:8px;cursor:pointer;max-width: 200px;margin: 0 auto;" @click="mostrarIndicador = false")
             img.imagen_flotante_animada(src="@/assets/curso/tema2/12.svg")
 
     .col-md-10.m-auto
@@ -268,7 +268,7 @@
 
           .row.mt-5.col-md-9.m-auto.indicador__container
             .col-md-3.mb-3
-              figure.p-2(@click="modal2 = true")
+              figure.p-2(@click="modal2 = true" style="max-width: 200px;margin: 0 auto;")
                 img.imagen__1.caja_escalada_hover.caja_flotante(src="@/assets/curso/tema2/14.svg" @click="mostrarIndicador3 = false")
               .indicador--click(v-if="mostrarIndicador3")
               h6.text-center.mt-2 Lluvia de ideas
@@ -276,21 +276,21 @@
                 h4 Lluvia de ideas
                 p.mt-3 Herramienta de trabajo en equipo que tiene como finalidad la generación de nuevas ideas.
             .col-md-3.mb-3
-              figure.p-2(@click="modal3 = true")
+              figure.p-2(@click="modal3 = true" style="max-width: 200px;margin: 0 auto;")
                 img.imagen__1.caja_escalada_hover.caja_flotante(src="@/assets/curso/tema2/15.svg" @click="mostrarIndicador3 = false")
               h6.text-center.mt-2 Espina de pescado
               ModalA(:abrir-modal.sync="modal3")
                 h4 Espina de pescado
                 p.mt-3 Diagrama causa-efecto en forma de espina de pescado que permite identificar las variables que generan un problema y que permite la toma de decisiones.
             .col-md-3.mb-3
-              figure.p-2(@click="modal4 = true")
+              figure.p-2(@click="modal4 = true" style="max-width: 200px;margin: 0 auto;")
                 img.imagen__1.caja_escalada_hover.caja_flotante(src="@/assets/curso/tema2/16.svg" @click="mostrarIndicador3 = false")
               h6.text-center.mt-2 Árbol de problemas
               ModalA(:abrir-modal.sync="modal4")
                 h4 Árbol de problemas
                 p.mt-3 Herramienta utilizada para la identificación de problemas a partir del análisis cusa-efecto.
             .col-md-3.mb-3
-              figure.p-2(@click="modal5 = true")
+              figure.p-2(@click="modal5 = true" style="max-width: 200px;margin: 0 auto;")
                 img.imagen__1.caja_escalada_hover.caja_flotante(src="@/assets/curso/tema2/17.svg" @click="mostrarIndicador3 = false")
               h6.text-center.mt-2 Lista de atributos
               ModalA(:abrir-modal.sync="modal5")
