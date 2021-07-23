@@ -110,7 +110,7 @@ export default {
             hash: 't_5_2',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: 'far fa-play-circle',
             numero: '5.3',
             titulo: 'Puntos críticos de control',
             hash: 't_5_3',
