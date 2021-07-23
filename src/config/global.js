@@ -248,22 +248,22 @@ export default {
       {
         nombre: 'Andrés Felipe Avilan Lozano',
         cargo: 'Experto temático',
-        centro: 'Centro Agropecuario la granja - Regional Tolima',
+        centro: 'Centro Agropecuario la Granja - Regional Tolima',
       },
       {
         nombre: 'Lina Marcela Ocampo Henao',
         cargo: 'Experta temática',
-        centro: 'Centro Agropecuario la granja - Regional Tolima',
+        centro: 'Centro Agropecuario la Granja - Regional Tolima',
       },
       {
         nombre: 'Diana Marcela Luis Vásquez',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de la gestión industrial - Regional Distrito Capital',
+        centro: 'Centro de la Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Evaluadora instruccional',
-        centro: 'Centro de gestión industrial - Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Jhana Johanna Bustillo Ardila',
